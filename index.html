@@ -23,21 +23,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script>
-      const parent = React.createElement(
-        "div",
-        { id: "parent" },
-        React.createElement("div", { id: "child" }, [
-          React.createElement("h1", {}, "hyy I m H1 tag"),
-          React.createElement("h2", {}, "hyy I m H2 tag"),
-        ])
-      );
-
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(parent);
-      //   const heading = React.createElement("h1", {}, "hello world from React");
-      //   const root = ReactDOM.createRoot(document.getElementById("root"));
-      //   root.render(heading);
-    </script>
+    <script src="App.js"></script>
   </body>
 </html>
